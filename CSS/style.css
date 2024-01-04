@@ -1,0 +1,77 @@
+body {
+    background-color: #0B1215;
+    /* background-color: #10171B; */
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    margin-left: 50px;
+    color: #F2F6F8;
+}
+
+#main-navigation {
+    padding: 0 25% 0;
+}
+
+#main-menu-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: #F2F6F8;
+    transition: color 0.2s;
+    font-size: 1.3em;
+}
+
+#main-menu-wrapper ul:hover .navbar-links {
+    color: #1E2C33;
+}
+
+#main-menu-wrapper ul li:hover .navbar-links {
+    color: #F2F6F8;
+}
+
+
+#contact  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#contact  ul  li {
+    margin: 0;
+    padding: 10px;
+}
+
+#contact  ul  li  a {
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-link {
+    margin: 50;
+    padding: 50;
+    fill: #1E2C33;
+    transition: 0.2s;
+}
+
+.contact-link:hover {
+    fill: #F2F6F8;
+    transform: scale(1.2);
+}
+
+#welcome-message {
+    margin-top: 100px;
+    padding: 0 50px 0 50px;
+    font-weight: 500;
+    font-size:2.5em;
+    color: #F2F6F8
+}
